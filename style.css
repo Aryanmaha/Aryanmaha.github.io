@@ -28,7 +28,7 @@
 
 .yes-button{
     position: absolute;
-    margin-left: -200px;
+    margin-left: -100px;
     font-family: 'Philosopher', sans-serif;
     background-color: #ffcdb2;
     background-image: linear-gradient(147deg, #ffcdb2 0%, #ffb4a2 74%);
@@ -49,7 +49,7 @@
 }
 .no-button{
     position: absolute;
-    margin-left: 300px;
+    margin-left: 200px;
     font-family: 'Philosopher', sans-serif;
     background-color: #a399b2;
     background-image: linear-gradient(147deg, #a399b2 0%, #4d4855 74%);
@@ -70,4 +70,16 @@
 
 a{
     text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    img{
+        height: 50%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 636px) {
+    .main h2{
+        font-size: 32px;
+    }
 }
