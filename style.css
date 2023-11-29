@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 64px;
+}
+
+.main h2 i{
+    color: #FDB0C0;
+}
+
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yes-button{
+    position: absolute;
+    margin-left: -200px;
+    font-family: 'Philosopher', sans-serif;
+    background-color: #ffcdb2;
+    background-image: linear-gradient(147deg, #ffcdb2 0%, #ffb4a2 74%);
+    margin-right: 10vw;
+    font-size: 32px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 2px solid #E09DAA;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.yes-button:hover{
+    background-image: linear-gradient(45deg, #ffb4a2 0%, #ffcdb2 70%);
+}
+
+.yes-button a{
+    color: #a399b2;
+}
+.no-button{
+    position: absolute;
+    margin-left: 300px;
+    font-family: 'Philosopher', sans-serif;
+    background-color: #a399b2;
+    background-image: linear-gradient(147deg, #a399b2 0%, #4d4855 74%);
+    margin-right: 10vw;
+    font-size: 32px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 2px solid #817c8a;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.no-button:hover{
+    background-image: linear-gradient(45deg, #4d4855 0%, #a399b2 100%);
+}
+.no-button a{
+    color: #ffcdb2;
+}
+
+a{
+    text-decoration: none;
+}
