@@ -24,7 +24,6 @@ noBtn.addEventListener("mouseover", () => {
   } else if (randomX > maxX) {
     randomX = maxX;
   }
-
   if (randomY < 0) {
     randomY = 0;
   } else if (randomY > maxY) {
